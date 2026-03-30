@@ -53,18 +53,17 @@ body{
 /* العنوان مع أيقونة الموقع */
 .address {
     display: flex;
+    flex-direction: column; /* كل سطر تحت بعض */
     align-items: center;
-    justify-content: center;
     font-size: 14px;
     color:#ddd;
-    gap:8px;
-    margin:20px 0 40px 0; /* مسافة فوق وتحت */
+    gap:4px; /* مسافة بين السطرين */
 }
 
 .address i {
-    font-size: 18px; /* حجم أيقونة الموقع متناسق مع النص */
+    font-size: 18px;
+    margin-right:5px;
 }
-
 /* أزرار التواصل */
 .btn{
     display:flex;
